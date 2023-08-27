@@ -35,6 +35,10 @@ public class HelloWorld extends PApplet
 	/** The map you will use to display your home town */ 
 	UnfoldingMap map2;
 
+	public static void main(String[] args)
+	{
+		PApplet.main("module1.HelloWorld");
+	}
 	public void setup() {
 		size(800, 600, P2D);  // Set up the Applet window to be 800x600
 		                      // The OPENGL argument indicates to use the 
